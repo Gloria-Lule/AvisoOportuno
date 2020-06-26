@@ -1,0 +1,161 @@
+{{>header}}
+<div class="main-banner">
+      <div class="ed-container">
+        <div class="ed-item main-center cross-center banner no-padding">
+          <img src="img/solicitud/banner/fondo.jpg" alt="Banner">
+          <div class="ed-container">
+            <div class="ed-item banner__description__solicitud no-padding">
+              <h1>
+                Llena tu solicitud.
+              </h1>
+              <p>
+                Publica un anuncio de manera rápida y sencilla.
+              </p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section>
+      <div class="ed-container padding-3">
+        <div class="ed-item web-85 no-padding normalizar-mt">
+          <div class="ed-container">
+            <form action="enviar.php" method="POST">
+              <div id="item-container__form1" class="ed-item no-padding">
+                <div class="item-section">
+                  <p>
+                    01
+                  </p>
+                </div>
+                <div class="ed-container">
+                  <div class="ed-item no-padding">
+                    <h1>
+                      Datos personales
+                    </h1>
+                  </div>
+                  <div class="ed-item sub-uno tablet-50 no-padding">
+                    <input type="text" name="nombre" placeholder="Nombre">
+                  </div>
+                  <div class="ed-item sub-dos tablet-50 no-padding">
+                    <input type="email" name="correo" placeholder="Correo electrónico">
+                  </div>
+                  <div class="ed-item sub-uno tablet-50 no-padding">
+                    <input type="text" name="nomina" placeholder="Nº de Nómina">
+                  </div>
+                  <div class="ed-item sub-dos tablet-50 no-padding">
+                    <input type="tel" name="extension" placeholder="Extensión">
+                  </div>
+                  <div class="ed-item sub-uno tablet-50 no-padding">
+                    <select name="oficina" id="">
+                      <option value="">Oficina</option>
+                      <option value="">Opción 2</option>
+                      <option value="">Opción 3</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div id="item-container__form2" class="ed-item no-padding">
+                <div class="item-section">
+                  <p>
+                    02
+                  </p>
+                </div>
+                <div class="ed-container">
+                  <div class="ed-item no-padding">
+                    <h1>
+                      Datos del bien o servicio
+                    </h1>
+                  </div>
+                  <div class="ed-item sub-uno tablet-50 cross-center no-padding">
+                    <input type="text" name="titulo-anuncio" placeholder="Título del anuncio">
+                  </div>
+                  <div class="ed-item sub-dos tablet-50 no-padding">
+                    <div class="ed-container">
+                      <div class="ed-item web-50 separar no-padding">
+                        <select name="tipos" id="">
+                          <option value="">Tipo de anuncio</option>
+                          <option value="">Opción 2</option>
+                          <option value="">Opción 3</option>
+                        </select>
+                      </div>
+                      <div class="ed-item web-50 no-padding">
+                        <select name="estados" id="">
+                          <option value="">Estado</option>
+                          <option value="">Opción 2</option>
+                          <option value="">Opción 3</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ed-item sub-uno tablet-50 cross-center no-padding">
+                    <select name="categoria" id="">
+                      <option value="">Categoría</option>
+                      <option value="">Opción 2</option>
+                      <option value="">Opción 3</option>
+                    </select>
+                  </div>
+                  <div class="ed-item sub-dos tablet-50 no-padding">
+                    <div class="ed-container">
+                      <div class="ed-item web-50 separar no-padding">
+                      <input type="text" name="precio" placeholder="Precio" class="separar">
+                      </div>
+                      <div class="ed-item web-50 no-padding">
+                        <select name="estados" id="">
+                          <option value="">Forma de pago</option>
+                          <option value="">Opción 2</option>
+                          <option value="">Opción 3</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="container-textarea" class="ed-item no-padding">
+                    <textarea name="descripcion" id="" placeholder="Descripción (150 palabras)"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div id="item-container__form3" class="ed-item no-padding">
+                <div class="item-section">
+                  <p>
+                    03
+                  </p>
+                </div>
+                <div class="ed-container">
+                  <div class="ed-item no-padding">
+                    <h1>
+                      Subir imágenes
+                    </h1>
+                  </div>
+                  <div class="ed-item sub-dos main-center cross-center no-padding">
+                      <div id="subir">
+                        <p>
+                          Arrastra aquí tus imágenes<br />
+                          <span>(Máximo 2 fotos por anuncio)</span>
+                        </p>
+                      </div>
+                  </div>
+                  <div id="texto-confirmacion" class="ed-item tablet-60 cross-center no-padding">
+                    <p>
+                      * Recibirás un correo de confirmación durante las siguientes 24 hrs.
+                    </p>
+                  </div>
+                  <div id="container-submit" class="ed-item tablet-40 no-padding">
+                    <input type="submit" value="Enviar solicitud">
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="ed-item web-15 no-padding">
+          <div id="anuncio" class="ed-container">
+            <div class="ed-item main-center web-main-end no-padding">
+              <img src="img/home/anuncio/anuncio.jpg" alt="Anuncio">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  {{>footer}}

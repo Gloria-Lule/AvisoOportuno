@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>ADMINISTRADOR</title>
+</head>
+<body class="">
+  <header>
+    <div class="ed-container">
+      <div class="ed-item no-padding">
+        <div class="cajaexterna">
+          <div class="cajainterna animated">
+            <div class="cajacentrada">
+              <div class="ed-container">
+                <div class="ed-item no-padding">
+                  <p>
+                    Categorías
+                  </p>
+                  <p>
+                    Escribe las categorías que deseas agregar a la lista.
+                  </p>
+                </div>
+                <div class="ed-item no-padding">
+                  <input type="text" placeholder="Categoría 1">
+                  <input type="text" placeholder="Categoría 2">
+                </div>
+                <div class="cierramodal">
+                  <a href="#">Añadir</a>
+                  <a href="#" class="cerrarmodal">Cancelar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-header">
+      <div class="ed-container padding-3">
+        <div class="ed-item tablet-65 no-padding main-center tablet-main-start cross-center">
+          <a href="index.html"><img src="img/logo.png" alt="Logo de la página."></a>
+          <a href="#" id="administrador">
+            Administrador
+          </a>
+          <p>
+            Aviso oportuno
+          </p>
+        </div>
+        <div class="ed-item tablet-35 no-padding main-center tablet-main-end cross-center">
+          <div class="ed-item main-center tablet-main-end no-padding">
+            <div id="salir">
+              <a href="#" class="circle">
+                <img src="img/administrador/salir.png" alt="Dibudo que representa la salida de la sesión">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="sub-menu" class="ed-container padding-3">
+      <div class="ed-item no-padding">
+        <ul class="ed-menu tablet-horizontal">
+          <li><a href="#">Todos</a></li>
+          <li><a href="#">Pendientes</a></li>
+          <li><a href="#">Aceptados</a></li>
+          <li><a href="#">Rechazados</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section>
+      <div class="ed-container padding-3">
+        <div class="ed-item web-75 normalizar-mt no-padding">
+          <div class="ed-container item-detalle__administrador">
+            <div class="ed-item sub-uno__administrador no-padding">
+              <div id="fecha">
+                <p>
+                  20<br /> Nov
+                </p>
+              </div>
+              <div class="ed-container">
+                <div class="ed-item web-50 sub-uno no-padding">
+                  <div id="contenedor-foto" class="ed-container">
+                    <div class="ed-item movil-50 no-padding">
+                      <img src="img/detalle/foto-1.jpg" alt="Moto. Vista 1">
+                    </div>
+                    <div class="ed-item movil-50 no-padding">
+                      <img src="img/detalle/foto-2.jpg" alt="Moto. Vista 2">
+                    </div>
+                    <div id="etiqueta">
+                      <p>
+                        Venta
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="ed-item web-50 sub-dos no-padding">
+                  <div class="ed-container">
+                    <div class="ed-item movil-75 no-padding">
+                      <h2 class="item__title">
+                        Moto Suzuki Hayabusa 1300
+                      </h2>
+                    </div>
+                    <div id="iconos" class="ed-item movil-25 main-center movil-main-end cross-center no-padding">
+                      <a href="#">
+                        <img src="img/administrador/items/iconos/editar.png" alt="Icono que representa editar la información.">
+                      </a>
+                      <a href="#">
+                        <img src="img/administrador/items/iconos/eliminar.png" alt="Icono que representa eliminar la información.">
+                      </a>
+                      <a href="#">
+                        <img src="img/administrador/items/iconos/pendiente.png" alt="Icono que representa el estado del producto.">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="ed-container">
+                    <div class="ed-item item-tags no-padding">
+                      <a href="#">Año: 2013</a>
+                      <a href="#">Pago: Efectivo</a>
+                    </div>
+                  </div>
+                  <div class="ed-container">
+                    <div class="ed-item item-description no-padding">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis parturient montes, nascetur ridiculus mus.
+                      </p>
+                    </div>
+                  </div>
+                  <div id="container-user" class="ed-container cross-center">
+                    <div class="ed-item item-tags no-padding">
+                      <a href="#"><img src="img/iconos/user.png" alt="Icono de usuario">Usuario: Miguel Acosta</a>
+                      <a href="#">Categoría: Automotriz</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ed-item sub-dos__administrador no-padding">
+              <div class="ed-container">
+                <div class="ed-item no-padding">
+                  <div id="fila" class="ed-container">
+                    <div class="ed-item web-20 main-center web-main-start cross-center no-padding">
+                    <img src="img/detalle/iconos/dolar.png" alt="Icono del dolar.">
+                    <p>
+                      Precio
+                    </p>
+                    </div>
+                    <div id="costo" class="ed-item web-20 main-center cross-center no-padding">
+                    <p>
+                      $ 80,000
+                    </p>
+                    </div>
+                    <div class="ed-item web-20 main-center web-main-start cross-center no-padding">
+                    <img src="img/detalle/iconos/ubicacion.png" alt="Icono del dolar.">
+                    <p>
+                      Oficina
+                    </p>
+                    </div>
+                    <div class="ed-item web-20 main-center cross-center no-padding">
+                    <p>
+                      Distrito Federal
+                    </p>
+                    </div>
+                    <div id="autorizar" class="ed-item web-20 main-center web-main-start cross-center no-padding">
+                    <a href="#" class="main-center cross-center">
+                      Autorizar
+                    </a>
+                    </div>
+
+                    <div class="ed-item web-20 main-center web-main-start cross-center no-padding">
+                    <img src="img/detalle/iconos/etiqueta.png" alt="Icono del dolar.">
+                    <p>
+                      Estado
+                    </p>
+                    </div>
+                    <div class="ed-item web-20 main-center cross-center no-padding">
+                    <p>
+                      Usado
+                    </p>
+                    </div>
+                    <div class="ed-item web-20 main-center web-main-start cross-center no-padding">
+                    <img src="img/solicitud/iconos/number.png" alt="Icono del dolar.">
+                    <p>
+                      Nº de Nómina
+                    </p>
+                    </div>
+                    <div class="ed-item web-20 main-center cross-center no-padding">
+                    <p>
+                      3568230
+                    </p>
+                    </div>
+                    <div id="rechazar" class="ed-item web-20 main-center web-main-start cross-center no-padding">
+                      <a href="#" class="main-center cross-center">
+                        Rechazar
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ed-container item-detalle__administrador">
+            <div class="ed-item sub-uno__administrador no-padding">
+              <div id="fecha">
+                <p>
+                  20<br /> Nov
+                </p>
+              </div>
+              <div class="ed-container">
+                <div class="ed-item web-50 sub-uno no-padding">
+                  <div id="contenedor-foto" class="ed-container">
+                    <div class="ed-item movil-50 no-padding">
+                      <img src="img/administrador/items/nisan/foto-1.jpg" alt="Auto Nisan. Vista 1">
+                    </div>
+                    <div class="ed-item movil-50 no-padding">
+                      <img src="img/administrador/items/nisan/foto-2.jpg" alt="Auto Nisan. Vista 2">
+                    </div>
+                    <div id="etiqueta">
+                      <p>
+                        Venta
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="ed-item web-50 sub-dos no-padding">
+                  <div class="ed-container">
+                    <div class="ed-item movil-75 no-padding">
+                      <h2 class="item__title">
+                        Nissan Áltima
+                      </h2>
+                    </div>
+                    <div id="iconos" class="ed-item movil-25 main-center movil-main-end cross-center no-padding">
+                      <a href="#">
+                        <img src="img/administrador/items/iconos/editar.png" alt="Icono que representa editar la información.">
+                      </a>
+                      <a href="#">
+                        <img src="img/administrador/items/iconos/eliminar.png" alt="Icono que representa eliminar la información.">
+                      </a>
+                      <a href="#">
+                        <img src="img/administrador/items/iconos/aceptado.png" alt="Icono que representa el estado del producto.">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="ed-container">
+                    <div class="ed-item item-tags no-padding">
+                      <a href="#">Año: 2008</a>
+                      <a href="#">Pago: Transferencia</a>
+                    </div>
+                  </div>
+                  <div class="ed-container">
+                    <div class="ed-item item-description no-padding">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis parturient montes, nascetur ridiculus mus.
+                      </p>
+                    </div>
+                  </div>
+                  <div id="container-user" class="ed-container cross-center">
+                    <div class="ed-item item-tags no-padding">
+                      <a href="#"><img src="img/iconos/user.png" alt="Icono de usuario">Usuario: Antonio Méndez</a>
+                      <a href="#">Categoría: Automotriz</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ed-item sub-dos__administrador no-padding">
+              <div class="ed-container">
+                <div class="ed-item no-padding">
+                  <div id="fila" class="ed-container">
+                    <div class="ed-item web-20 main-center web-main-start cross-center no-padding">
+                    <img src="img/detalle/iconos/dolar.png" alt="Icono del dolar.">
+                    <p>
+                      Precio
+                    </p>
+                    </div>
+                    <div id="costo" class="ed-item web-20 main-center cross-center no-padding">
+                    <p>
+                      $ 80,000
+                    </p>
+                    </div>
+                    <div class="ed-item web-20 main-center web-main-start cross-center no-padding">
+                    <img src="img/detalle/iconos/ubicacion.png" alt="Icono del dolar.">
+                    <p>
+                      Oficina
+                    </p>
+                    </div>
+                    <div class="ed-item web-20 main-center cross-center no-padding">
+                    <p>
+                      Distrito Federal
+                    </p>
+                    </div>
+                    <div id="autorizar" class="ed-item web-20 main-center web-main-start cross-center no-padding">
+                    <a href="#" class="main-center cross-center">
+                      Autorizar
+                    </a>
+                    </div>
+
+                    <div class="ed-item web-20 main-center web-main-start cross-center no-padding">
+                    <img src="img/detalle/iconos/etiqueta.png" alt="Icono del dolar.">
+                    <p>
+                      Estado
+                    </p>
+                    </div>
+                    <div class="ed-item web-20 main-center cross-center no-padding">
+                    <p>
+                      Usado
+                    </p>
+                    </div>
+                    <div class="ed-item web-20 main-center web-main-start cross-center no-padding">
+                    <img src="img/solicitud/iconos/number.png" alt="Icono del dolar.">
+                    <p>
+                      Nº de Nómina
+                    </p>
+                    </div>
+                    <div class="ed-item web-20 main-center cross-center no-padding">
+                    <p>
+                      3568230
+                    </p>
+                    </div>
+                    <div id="rechazar" class="ed-item web-20 main-center web-main-start cross-center no-padding">
+                      <a href="#" class="main-center cross-center">
+                        Rechazar
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="separar-lateral" class="ed-item web-25 no-padding">
+          <div id="lateral" class="ed-container">
+            <div id="categorias">
+              <div class="ed-container">
+                <div class="ed-item no-padding">
+                  <div class="cajaexternaeliminar">
+                    <div class="cajainternaeliminar animated">
+                      <div class="cajacentradaeliminar">
+                        <div class="ed-container">
+                          <div class="ed-item no-padding">
+                            <img src="img/administrador/modal/eliminar.png" alt="Imagen mostrada para eliminar un bien.">
+                            <p>
+                              ¿Estás seguro de que quieres eliminar
+                              la categoría <span>“Automotríz”</span>?
+                            </p>
+                          </div>
+                          <div class="ed-item no-padding">
+                          </div>
+                          <div class="cierramodal">
+                            <a href="#">Añadir</a>
+                            <a href="#" class="cerrarmodaleliminar">Cancelar</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="ed-item cross-center justify no-padding">
+                <p>
+                  Categorías
+                </p>
+                <a href="#" class="button mostrarmodal">
+                  Añadir
+                </a>
+              </div>
+              <div class="ed-item sub-uno no-padding">
+                <ul>
+                  <li class="cross-center">
+                    <input type="checkbox" value="" />
+                    <label>Automotríz</label>
+                    <a href="#" class="mostrarmodaleliminar">
+                      <img src="img/administrador/categorias/iconos/eliminar.png" alt="Icono para eliminar">
+                    </a>
+                  </li>
+                  <li class="cross-center">
+                    <input type="checkbox" value="" />
+                    <label>Bienes raíces</label>
+                    <a href="#" class="mostrarmodaleliminar">
+                      <img src="img/administrador/categorias/iconos/eliminar.png" alt="Icono para eliminar">
+                    </a>
+                  </li>
+                  <li class="cross-center">
+                    <input type="checkbox" value="" />
+                    <label>Informática</label>
+                    <a href="#" class="mostrarmodaleliminar">
+                      <img src="img/administrador/categorias/iconos/eliminar.png" alt="Icono para eliminar">
+                    </a>
+                  </li>
+                  <li class="cross-center">
+                    <input type="checkbox" value="" />
+                    <label>Electronónica</label>
+                    <a href="#" class="mostrarmodaleliminar">
+                      <img src="img/administrador/categorias/iconos/eliminar.png" alt="Icono para eliminar">
+                    </a>
+                  </li>
+                  <li class="cross-center">
+                    <input type="checkbox" value="" />
+                    <label>General</label>
+                    <a href="#" class="mostrarmodaleliminar">
+                      <img src="img/administrador/categorias/iconos/eliminar.png" alt="Icono para eliminar">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="ed-item sub-dos no-padding">
+                <ul>
+                  <li>
+                    <img src="img/administrador/categorias/iconos/aceptado.png" alt="Icono de solicitud aceptada.">
+                    <a href="#">Aceptado</a>
+                  </li>
+                  <li>
+                    <img src="img/administrador/categorias/iconos/rechazado.png" alt="Icono de solicitud rechazada.">
+                    <a href="#">Recahzado</a>
+                  </li>
+                  <li>
+                    <img src="img/administrador/categorias/iconos/pendiente.png" alt="Icono de solicitud pendiente.">
+                    <a href="#">Pendiente</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="no-mt">
+    <div class="ed-container padding-3">
+      <div class="ed-item web-60 no-padding">
+        <p>
+          © 2015 KPMG Cárdenas Dosal, S.C. la firma mexicana miembro de la red de firmas miembro independientes de KPMG afiliadas a KPMG International Cooperative (“KPMG International”), una entidad suiza. Blvd. Manuel Ávila Camacho 176, México, 11650, D.F. Todos los derechos reservados.
+          <p>
+          KPMG International Cooperative (“KPMG International”) es una entidad suiza. Las firmas miembro de la red de firmas independientes de KPMG están afiliadas a KPMG International. KPMG International no provee servicios a clientes. Ninguna firma miembro tiene autoridad para obligar o comprometer a KPMG International ni a ninguna otra firma miembro frente a terceros, ni KPMG International tiene autoridad alguna para obligar o comprometer a ninguna firma miembro. KPMG y el logotipo de KPMG son marcas registradas de KPMG International Cooperative (“KPMG International”), una entidad Suiza. 
+        </p>
+      </div>
+      <div class="ed-item web-40 no-padding">
+        <div class="ed-container">
+          <div class="ed-item web-1-3 main-center web-main-end cross-center no-padding">
+            <img src="img/footer/1.png" alt="">
+          </div>
+          <div class="ed-item web-1-3 main-center web-main-end cross-center no-padding">
+            <img src="img/footer/2.jpg" alt="">
+          </div>
+          <div class="ed-item web-1-3 main-center web-main-end cross-center no-padding">
+            <img src="img/footer/3.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
